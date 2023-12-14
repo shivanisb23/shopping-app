@@ -1,0 +1,52 @@
+{
+    "companylist": [
+        {
+            "id": 1,
+            "name": "UI Master",
+            "branch": "100",
+            "city": "Chennai",
+            "emp": "200"
+        }
+    ],
+    "productlist": [
+        {"id":1,"itemname":"Apple","price":"300","qty":"20","feedback":"Very Good"}
+    ],
+    "joblist": [
+        {
+            "id": 1,
+            "title": "Software Developer",
+            "salary": 20000,
+            "city": "Bangalore"
+        },
+        {
+            "id": 2,
+            "title": "Java Developer",
+            "salary": 22000,
+            "city": "Mangalore"
+        },
+        {
+            "id": 3,
+            "title": "Phython Developer",
+            "salary": 25000,
+            "city": "Nagpur"
+        },
+        {
+            "id": 4,
+            "title": "PHP Developer",
+            "salary": 15000,
+            "city": "Delhi"
+        },
+        {
+            "id": 5,
+            "title": "Node Developer",
+            "salary": 25000,
+            "city": "Pune"
+        },
+        {
+            "id": 6,
+            "title": "React Developer",
+            "salary": 30000,
+            "city": "Mangalore"
+        }
+    ]
+}

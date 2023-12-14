@@ -1,0 +1,8 @@
+[
+    {"name":"Alex","mobile":9876253210,"job":true},
+    {"name":"Sunil","mobile":9872643210,"job":false},
+    {"name":"Manoj","mobile":9876545710,"job":true},
+    {"name":"Mukesh","mobile":9876345210,"job":false},
+    {"name":"Ajit","mobile":987636210,"job":false},
+    {"name":"Suman","mobile":9876543289,"job":true}
+]

@@ -1,0 +1,105 @@
+===================================================
+How to setup project in react?
+
+1.install node’s from nodes.org official website.
+2.create folder as my react
+3.run bellow command to setup environment
+   npm install -g create-react-app
+4.run bellow command to install how to install new project
+ => npx create-react-app project1
+Note=> on success of step no.4 ,it will show message as “Happy Hacking”
+5.cd project1
+6.run bellow command to start react server.
+=>npm start
+Note=> if compiled successfully then
+Open URL -http://localhost:3000. in browser.
+===================================================================
+we can use html tags using 4 tags predefined user defined no tags 
+JSX - Javascript & xml
+JSX - javascript+ html+xml rules
+
+The 4 rules of xml
+  1. in every xml file doctype declaration is required
+  2. in xml all the tags are user defined.
+  3. xml tags are case sensative
+     <Abc> and </abc> are different
+  4.every xml document should have only 1 parent element.
+----------------------------------------------------------------------
+
+Rules of JSX 
+    Component - function in javascript 
+    JSX Element = All HTML Tags + user defined tags are called jsx element in react
+    
+    JSX Rule 
+    => If inside a component,more than one jsx elements are required then keep inside
+        parent jsx element
+        Example-
+            <section>
+            <h1> About us </h1>
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+            <div> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </div>
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+            </section>
+   =>The parent or child JSX element can user defined tag also
+      Example-
+         <hello>
+            <h1> About us </h1>
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+            <div> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </div>
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+         </hello>
+   =>The parent or child JSX element can be empty tag also.
+      Example-
+         <>
+            <h1> About us </h1>
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+            <div> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </div>
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+         </>
+   =>The parent or child JSX element can be array [] also
+      Example-
+         [
+         <h1> About us </h1>,
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>,
+            <div> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </div>,
+            <p> ref fd fdc fdc dfc fdc fdc fcd dcf dec dec </p>
+         ]
+======================The Flow of data in React=================================
+
+How to setup routing in react
+   install this command
+       => npm install react-router-dom
+      
+
+      https://jsonplaceholder.typicode.com/posts
+
+      create a component state6.jsonplaceholder
+      read data from above url using fetch()
+      display- body property from response
+
+=============================================================
+https://jsonplaceholder.typicode.com/todos
+
+      create a component state7.js
+      read data from above url using fetch()
+      display- title and completed property from response
+=======================================================================
+https://jsonplaceholder.typicode.com/users
+
+      create a component state8.js
+      read data from above url using fetch()
+---------------------------------------------
+      userarray.map((user.index))
+      display-
+          user.name
+          user.email
+          user.address.city
+          user.address.zipcode
+          user.company.name
+
+         
+
+
+
+
+   
